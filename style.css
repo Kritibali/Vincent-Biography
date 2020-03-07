@@ -1,0 +1,190 @@
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css");
+
+
+*{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size:20px;
+   margin:0;
+padding:0;
+}
+header{
+background-color:#2d3436;
+height:400px;
+}
+ header p{              /* p for quotes */
+    font-size:35px;
+    text-align:center;
+    color:#f1f2f6;
+    margin-right:190px;
+    padding-top:140px;
+    font-style:oblique;
+}
+header img{
+    float:right;
+    border-radius:9px;
+    margin-top:-160px;
+    margin-right:30px;
+    box-shadow:2px -2px 7px white;
+}
+img:hover{
+   border:2px groove white;
+   transition:0.2s all ease-in;
+   cursor: grab;
+}
+.navbar {
+    margin-top:-10px;
+    box-sizing: border-box;
+}
+.navbar ul{
+   margin:0 -20px;
+    height:100px;
+    background-color:#ced6e0;
+    text-align:center;
+    padding-top:30px;
+    font-weight:bold;
+    width:2500px;
+}
+.navbar ul li{
+    display:inline;
+    margin:0 25px 0 25px;
+    text-align:center;
+}
+.navbar ul li a{
+    font-size:24px;
+    text-decoration:none;
+    color:#34495e;
+    opacity:0.6;
+}
+.navbar ul li a:hover{
+    opacity: 1;
+    border-bottom:3px solid #34495e;
+}
+
+.main-body,.images{
+    margin:30px 30px 0 30px;
+    box-shadow:2px #2d3436;
+}
+.main-body h2,.related-searches h2,h2{
+    font-size:28px;
+    color:#34495e;
+    padding:10px;
+}
+.main-body h6{
+    font-weight:normal;
+    margin:0 35px;
+    text-align:justify;
+}
+.quote ul li{
+    list-style-type:none;
+    margin:0 35px;
+    font-style:italic;
+    font-weight:bold;
+}
+.images{
+    background-color: #ced6e0;
+    box-shadow:-2px 3px 9px black;
+    border-radius: 10px;
+}
+.images img{
+    margin:10px;
+    padding:6px;
+}
+.related-searches{
+    margin:50px 30px 0 30px;
+}
+.related-searches h2{
+    margin-bottom:30px;
+}
+.related-searches ul{
+    text-align:center;
+}
+.related-searches ul>li{
+    display:inline;
+    margin:0 10px 0 20px;
+    padding:10px 20px;
+    border-radius:40px;
+    font-weight:bold;
+    border:8px double #f1f2f6;
+    background-color: #ced6e0;
+}
+.related-searches ul li a{
+    text-decoration:none;
+    color:#34495e;
+    opacity:0.6;
+}
+.related-searches ul li a:hover{
+    border-bottom:3px solid #34495e;
+    opacity:1;
+}
+.related-searches ul li:hover{
+    border-width:13px;
+}
+.foot{
+ margin-top:70px;
+background-color:#2d3436;
+height:400px;
+color:white;
+}
+.foot i,.foot h3,.footer{
+    padding:10px;
+    margin:30px 30px 20px 30px;
+}
+.foot h3{
+    font-size:25px;
+}
+.foot ul{
+    margin-left:230PX;
+    margin-top:-100px;
+}
+.foot ul li{
+    display:block;
+    padding:10px;
+    color:#f1f2f6;
+    opacity:0.4;
+    width:200px;
+    font-weight: bold;
+}
+.foot h4{
+    float:right;
+    margin-right:100px;
+    font-size:22px;
+    margin-top:-230px;
+}
+.foot a{
+    color:#ced6e0;
+    text-decoration: none;
+}
+.foot a:hover{
+    background-color:#ced6e0;
+    color:#2d3436;
+    text-decoration: none;
+    padding:2px 5px;
+    border-radius:7px;
+    transition: 0.4s all ease-in-out;
+}
+.foot ul li:hover{
+   color:#ced6e0;
+   transition: 0.2s all ease-in;
+   opacity: 1;
+}
+.footer{
+    text-align:center;
+    font-size:22px;
+    padding:9px;
+}
+/*==========================HTML 2=====================*/
+
+.quote{
+    margin:10px 20px;
+    padding:10px;
+    background-color:#2d3436;
+    color:white;
+    font-style: italic;
+    text-align: center;
+    font-size:23px;
+    border-radius:9px;
+}
+.quote:hover{
+    opacity:0.7;
+    cursor: grab;
+}
